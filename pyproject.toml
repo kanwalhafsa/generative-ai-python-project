@@ -1,9 +1,10 @@
 [project]
-name = "generative-ai"
+name = "generative-ai-python-project"
 version = "0.1.0"
-description = "Add your description here"
+description = "Your project description"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "streamlit>=1.45.0",
+    "google-generativeai>=0.1.0"  # Add this line
 ]
